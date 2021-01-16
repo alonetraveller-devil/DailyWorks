@@ -44,6 +44,7 @@ body{
 }
 
 .leftMsgBox textarea{
+    width: 77%;
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
@@ -102,6 +103,8 @@ body{
 }
 
 .leftInfoData{
+    font-family: Arial;
+    color:#1c00b5 ;
     padding-top: 30px;
     display:flex;
 }
@@ -123,6 +126,7 @@ body{
 }
 
 .flexInfoData p{
+
     margin:12px 0px 5px 0px;
 }
 
@@ -139,3 +143,14 @@ body{
     height:20px;
 }
 
+
+.leftInfoData input{
+    border-top:none;
+    border-right: none;
+    border-left:none;
+}
+
+.leftMsgBox p{
+    font-family: Arial;
+    color:#1c00b5 ;
+}
