@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display:block;
+    padding:10px 16px;;
+    background: #55ffe5;
+}
+
+.header::first-line{
+    font-size: 30px;
+    font-family:arial black ,fantasy;
+}
+
+.header{
+    background: #55ffe5;
+    padding:50px 200px;
+    font-weight: 600;   
+}
+
+.cornerBorders{
+    background: black;
+}
+
+.ptagsmall{
+    font-size: 18px;
+    font-weight:400;
+    font-family: Arial;
+}
+
+
+.form{
+    width:600px;
+    height: ;
+    background-color: white;
+    padding: 0px 0px 0px 60px;
+}
+
+.leftInfoForm :first-child{
+    font-size:20px;
+    font-weight: 800;
+}
+
+.leftMsgBox textarea{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.sendButton input[type="button"]{
+    width:18%;
+    height:41px;
+}
+
+.reachUs{
+    
+  
+    font-family: Arial;
+    padding:20px 0px 0px 30px ;
+    width:350px;
+    background-color:#1c00b5 ;
+}
+
+.rightReachUs{
+    font-size:20px;
+    padding:0px 0px 50px 0px;
+    color: white;
+}
+
+.contactUsWrapper{
+    height:100%;
+    padding:20px 0px 0px 200px;
+
+    width:70%;
+    display: flex;
+}
+
+.rightData{
+    padding-top:30px;
+    color: white;
+}
+
+.leftInfoForm{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+}
+
+
+.leftInfoForm:first-child{
+    font-family: arial,fantasy;
+    font-size: 20px;
+    font-weight: 790;
+    color:#1c00b5;
+}
+
+.rightReachUs :first-child{
+    font-family: arial,fantasy;
+    font-size:20px;
+    font-weight: 790;
+}
+
+.leftInfoData{
+    padding-top: 30px;
+    display:flex;
+}
+
+
+.flexDataInfo p{
+    margin:12px 0px 5px 0px;
+}
+
+
+.flexDataInfo{
+    
+    padding:0px 0px 0px 60px;
+}
+
+.leftMsgBox{
+    margin:0px 0px 10px 0px;
+    padding-top:20px;
+}
+
+.flexInfoData p{
+    margin:12px 0px 5px 0px;
+}
+
+.sendButton{
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.send{
+    
+    border-radius: 60px;
+    background-color: #1c00b5 ;
+    color:white;
+    height:20px;
+}
+
